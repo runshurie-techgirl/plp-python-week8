@@ -1,0 +1,75 @@
+PERSONAL MINI-TOOLKIT - PLAN
+============================
+
+1. TOOLS AND WHAT THEY DO
+-------------------------
+Tool 1 - Number Guessing Game:
+  The computer picks a secret number from 1 to 20 and the user keeps
+  guessing, getting "too low" or "too high" hints until they get it right.
+
+Tool 2 - To-Do List:
+  The user can add tasks, view all tasks, and remove a finished task, and
+  the list stays saved while the program is running.
+
+Tool 3 - Simple Calculator:
+  The user enters two numbers and an operator (+, -, *, /) and the program
+  shows the answer.
+
+Tool 4 - Name Formatter:
+  The user types a name and the program shows it in proper capitalisation,
+  UPPERCASE, lowercase, with initials, and the number of letters.
+
+
+2. EXACT MENU TEXT
+------------------
+=============================
+   PERSONAL MINI-TOOLKIT
+=============================
+1. Number Guessing Game
+2. To-Do List
+3. Simple Calculator
+4. Name Formatter
+5. Quit
+-----------------------------
+Choose an option (1-5):
+
+Invalid choice message:
+  Oops! "<what the user typed>" is not on the menu. Please pick a number from 1 to 5.
+
+Welcome message:
+  Welcome to your Personal Mini-Toolkit!
+
+Goodbye message:
+  Thanks for using the toolkit. Goodbye and keep coding!
+
+
+3. CONCEPTS USED BY EACH TOOL
+-----------------------------
+Main menu:
+  - while loop (runs until Quit is chosen)
+  - if / elif / else (routes the choice, handles invalid input)
+  - f-strings (friendly messages)
+
+Tool 1 - Number Guessing Game:
+  - while loop (keeps asking until correct guess or user quits)
+  - if / elif / else (too low, too high, correct)
+  - variable counting attempts
+  - f-strings
+
+Tool 2 - To-Do List:
+  - list that changes while the program runs (append, pop)
+  - while loop for the to-do sub-menu
+  - for loop with enumerate to number the tasks
+  - if / elif / else
+  - f-strings
+
+Tool 3 - Simple Calculator:
+  - if / elif / else (choose the operation, avoid dividing by zero)
+  - input and type conversion (float)
+  - f-strings
+
+Tool 4 - Name Formatter:
+  - string methods (strip, title, upper, lower, split)
+  - for loop (builds the initials)
+  - if / else (empty name check)
+  - f-strings
